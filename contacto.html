@@ -1,0 +1,79 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Contacto</title>
+    <style>
+        input {
+            display: inline;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header id="encabezado">
+        <h1>contacto</h1>
+    </header>
+    <main>
+        <section>
+            <form style="text-align: center;" action="procesar.php" method="post">
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    <label for="id_nombre">Nombre*
+                        <input type="text" name="Nombre" id="id_nombre" required placeholder="Nombre"></label><br>
+                    <label for="email">Email principal*
+                        <input type="email" id="email" placeholder="example@email.com" required></label><br>
+                    <label for="Edad">Edad
+                        <input type="number" id="Edad" required min="10" max="85">
+                    </label><br>
+                    <label style="display: inline;" for="archivo">Archivo*</label><input type="file" id="archivo" required>
+                    <br><br>
+                    <label>
+                        Contraseña*<input type="password" name="password" pattern="^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$ " id="password" required>
+                        <span style="font-size: small;">La contraseña debe tener al entre 8 y 16 caracteres, al menos un
+                            dígito, al menos una minúscula y al menos una mayúscula.
+                            Puede tener otros símbolos.</span>
+                    </label><br>
+                    <label>Mensaje*
+                        <textarea name="comentario" id="comentario" cols="30" rows="5" required></textarea></label>
+
+        </section>
+        <label for="">País:</label>
+        <select id="">
+            <option value="" selected>Seleccione un país</option>
+            <option value="opcion1">Argentina</option>
+            <option value="opcion2">Bolivia</option>
+            <option value="opcion3">Perú</option>
+            <option value="opcion4">Uruguay</option>
+            <option value="opcion5">Paraguay</option>
+            <option value="opcion6">Chile</option>
+            <option value="opcion7">Colombia</option>
+            <option value="opcion8">Ecuador</option>
+            <option value="opcion9">Brasil</option>
+            <option value="opcion10">Venezuela</option>
+        </select>
+
+        <label>
+            <h3>¿Tiene alguna discapacidad?</h3><br>
+            <input type="checkbox" name="opcion1" value="Sí">Sí
+            <input type="checkbox" name="opcion2" value="No">No
+        </label>
+        <label>
+            <h3>sexo</h3>
+            <input type="radio" name="sexo" value="hombre" checked>Masculino
+            <input type="radio" name="sexo" value="mujer">Femenino
+        </label>
+        <button class="hola2">Enviar consulta</button>
+        <input class="hola2" style= "color: white;" type="reset" value="Borrar">
+        </fieldset>
+
+        </form>
+
+    </main>
+
+</body>
+
+</html>

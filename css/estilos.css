@@ -1,0 +1,105 @@
+ @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+
+ * {
+   box-sizing: border-box;
+ }
+
+ body {
+   background-color: burlywood;
+   font-size: 24px;
+   margin: 0%;
+ }
+
+ header {
+   width: 100%;
+   font-family: 'Coiny', system-ui;
+ }
+
+ main {
+   font-family: 'Roboto', sans-serif;
+ }
+
+ nav a:hover {
+   color: blue;
+ }
+
+ nav a:link {
+   color: black;
+ }
+
+ h1 h3 h4 {
+   font-weight: 700;
+ }
+
+ img {
+   width: 687.794px;
+   height: 549.445px;
+ }
+
+ section img {
+   width: 552px;
+   height: 537px;
+ }
+
+ aside img {
+   width: 115.208px;
+   height: 104.062px;
+ }
+
+ header img {
+   width: 115.208px;
+   height: 104.062px;
+ }
+ h1, h3, h4 {
+  color: black;
+  font-size: 20px;
+  background-color: crimson;
+ }
+ header img {
+  width: 240.785px;
+height: 56.193px;
+ }
+ h1 {
+  font-family: 'Coiny', system-ui;
+ }
+ h3 {
+  font-size: 33px;
+ }
+ #encabezado {
+  background-image: url(img/3285305_laser_space_weapon_gun_alien_pistol_ray.png);
+  width: 400px;
+  height: 300px;
+  background-repeat: no-repeat;
+ }
+ 
+ label, input{
+
+  display: block;
+  
+  }
+
+  ol {
+
+  font-size: 2em;
+  font-weight: 400;
+  list-style-position: inside;
+
+  }
+  button {
+    background-color: black;
+  }
+  #hola {
+    font-size: 2em;
+    font-weight: 400;
+    background-color: crimson;
+    
+  }
+  .hola {
+color: white;
+display: inline;
+  }
+  .hola2 {
+color: white;
+background-color:black ;
+display: inline;
+  }
